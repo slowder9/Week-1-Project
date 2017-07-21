@@ -1,0 +1,76 @@
+@font-face{
+  font-family: "Merriweather", "Roboto", serif, sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i);
+}
+
+.navbar{
+  font-family: "Roboto";
+  display: inline-block;
+}
+
+#home:hover{
+  color:#CD5D67;
+}
+
+#home:active{
+  color: #968772;
+}
+
+.links{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 150px;
+  }
+
+a{
+  margin-right: 70px;
+  color: #2B2F26;
+}
+
+.container{
+  display: inline-block;
+  background-color: white;
+}
+
+#logo{
+  height: 40px;
+  margin-right: 200px;
+}
+
+.body{
+  background-color: #F2F1E8;
+}
+
+.body h1,h2{
+  font-family: "Merriweather";
+  text-align: center;
+}
+
+.body h1{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.body h2{
+  font-size: 30px;
+  font-weight: 100;
+  position: relative;
+  bottom: 30px;
+}
+
+.footer{
+  background-color: darkgrey;
+}
+
+li{
+  list-style-type: none;
+}
+
+.firstrow .secondrow{
+  display: flex;
+}
+
+.firstrow{
+  justify-content: space-between;
+  height: 20px;
+}
