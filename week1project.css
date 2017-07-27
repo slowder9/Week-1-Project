@@ -8,19 +8,20 @@
   display: inline-block;
 }
 
-#home:hover{
-  color:#CD5D67;
-}
-
-#home:active{
-  color: #968772;
-}
 
 .links{
   display: inline-block;
   list-style-type: none;
-  margin-left: 150px;
+  padding-left: 275px;
   }
+
+.links a:hover{
+  color: #CD5D67;
+}
+
+.links a:active{
+  color: #968772;
+}
 
 a{
   margin-right: 70px;
@@ -39,6 +40,8 @@ a{
 
 .body{
   background-color: #F2F1E8;
+  position: relative;
+  margin: 20px;
 }
 
 .body h1,h2{
@@ -58,19 +61,306 @@ a{
   bottom: 30px;
 }
 
-.footer{
-  background-color: darkgrey;
+.images .top_row h3{
+  display:inline-flex;
+  position:relative;
+  top:80%;
+  color: #F2F1E8;
+  background-color: #2B2F26;
+  padding:3px;
+  width: auto;
 }
 
-li{
-  list-style-type: none;
+.images h3 {
+  display:inline-flex;
+  position:relative;
+  top:70%;
+  color: #F2F1E8;
+  background-color: #2B2F26;
+  padding: 3px;
+  width: auto;
 }
 
-.firstrow .secondrow{
+.bottom .bottom_row h3{
+  display:inline-flex;
+  position:relative;
+  top:70%;
+  color: #F2F1E8;
+  background-color: #2B2F26;
+  padding:3px;
+  width: auto;
+}
+
+.images .images2{
   display: flex;
+  flex-direction:column;
+  width:900px;
+  justify-content: center;
+  align-content: center;
 }
 
-.firstrow{
+.top {
+  display:flex;
   justify-content: space-between;
-  height: 20px;
+  min-height: 300px;
+  margin:5px;
 }
+
+.bottom{
+  display:flex;
+  justify-content: space-between;
+  min-height: 200px;
+  margin:10px;
+}
+
+.top_row{
+  width:100%;
+  margin:5px;
+}
+
+.bottom_row{
+  width: 100%
+  margin: 5px;
+}
+
+#endless{
+  background-image:url("images/optimized 3/product-1.jpg");
+  background-size:120%;
+  width:60%;
+}
+
+#sets{
+  background-image:url("images/optimized 3/product-2.jpg");
+  background-size:120%;
+  width: 20%
+}
+
+#textures{
+  background-image:url("images/optimized 3/product-3.jpg");
+  background-size:140%;
+  width: 20%;
+}
+
+#teatime{
+  background-image:url("images/optimized 3/product-4.jpg");
+  background-size:150%;
+  width: 20%;
+  margin-right: 10px;
+}
+
+#jarsandcontainers{
+  background-image:url("images/optimized 3/product-5.jpg");
+  background-size:150%;
+  width: 20%;
+  margin-right: 10px;
+}
+
+#wasabiandsaki{
+  background-image:url("images/optimized 3/product-6.jpg");
+  background-size:120%;
+  width: 40%;
+  margin-right: 10px;
+}
+
+#sunshine{
+  background-image:url("images/optimized 3/product-7.jpg");
+  background-size:150%;
+  width: 20%;
+}
+
+.footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Merriweather";
+  color: white;
+  text-indent: 40px;
+  background-color: #131511;
+}
+
+#aboutlogo{
+  height: 40px;
+  margin-right: 200px;
+}
+
+#birdhouse{
+  height: 100px;
+  padding: 20px 30px 30px 20px;
+  float: left;
+}
+
+.body p{
+  font-family: "Merriweather";
+}
+
+.body h1{
+  text-align: center;
+}
+
+#birdhouse .summary{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.summary{
+  text-align: center;
+}
+
+.roomtogrow{
+  text-align: center;
+  font-size: 3em;
+  background-image:url("images/optimized 3/background-3.jpg");
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:right;
+  color: white;
+  align-self:center;
+  padding: 75px 0;
+  margin-top: 50px;
+
+}
+
+.caption{
+  font-style: italic;
+  border-left: 2px solid;
+  border-color: #968772;
+  padding-left: 15px;
+  font-weight: 50px;
+  color:#2B2F26;
+  margin-left: 200px;
+  line-height: 30px;
+}
+
+.body h3{
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  font-weight:200;
+  margin-top: 20px;
+}
+
+#facilities {
+  display: flex;
+  margin-bottom: -100px;
+}
+
+#shelf-space{
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+#shelf {
+  float: right;
+  font-size: 0.7em;
+  line-height:normal;
+}
+
+.body h4{
+  font-family: "Merriweather";
+  font-weight: 300;
+  font-size: 115%;
+}
+
+#caption2{
+  font-family: "Merriweather";
+  line-height: 20px;
+}
+
+.plans {
+  padding: 0;
+  margin-bottom: 50px;
+  border-spacing: 0px;
+  border: .5px solid black;
+  border-collapse:collapse;
+  font-family: "Merriweather";
+}
+
+.plans tr:nth-of-type(2n){
+  background-color:#968772;
+}
+
+#tableheader {
+  text-align: center;
+}
+
+.plans td {
+  border: .5px solid black;
+  margin: 20px;
+  padding: 5px 20px;
+}
+
+#newsletterlogo{
+  height: 40px;
+  margin-right: 200px;
+}
+
+
+#formbody{
+  display:flex;
+  width:500px;
+  background-image:url(images/optimized 3/background-2.jpg);
+  background: white;
+  position:relative;
+  bottom: 650px;
+  flex-direction:column;
+  align-items:center;
+  margin: 0 400px;
+  text-align:center;
+  border: 10px solid white;
+  font-family: "Merriweather";
+  font-weight: 300;
+
+}
+
+#newsletterbackground{
+  width: 1500px;
+  padding-top: 50px;
+}
+
+input {
+  width: 450px;
+  margin: 5px auto;
+  border: none;
+}
+
+#name{
+  border-bottom: 1px solid #968772;
+  margin-top: 10px;
+}
+
+#email{
+  border-bottom: 1px solid #968772;
+  margin-top: 10px;
+}
+
+.button button{
+  color: #F2F1E8;
+  background-color: #968772;
+  padding: 15px;
+  margin: 30px 10px;
+  justify-content: center;
+  border-width: 0px;
+  width: 100px;
+  font-size: 120%;
+}
+
+.button a:hover {
+  background-color:#967343;
+}
+
+#formbody h1, h2{
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

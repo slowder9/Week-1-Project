@@ -1,40 +1,70 @@
 <!doctype html>
 <html>
 <head>
-  <nav class="navbar">
-    <img src="images/optimized 3/bent-creek-logo.png">
-  <p><a href="index.html">Home</a>
-     <a href="about.html">About</a>
-     <a href="newsletter.html">Newsletter</a></p>
-  </nav>
+  <link rel="stylesheet" type="text/css" href="week1project.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
 </head>
 
-<body>
+  <body>
+
+  <header>
+  <nav class="navbar">
+  <div class="container">
+    <img id=aboutlogo src="images/optimized 3/bent-creek-logo.png">
+  </div>
+  
+  <div class="links"> 
+     <a href="index.html">Home</a>
+     <a href="about.html">About</a>
+     <a href="newsletter.html">Newsletter</a>
+  </div>
+  </nav>
+  </header>
+  
+
+
+
+  <div class="body">
   <section>
     <article>
+    
     <h1>A Community of Artists</h1>
+    <img id="birdhouse" src="images/optimized 3/birdhouse.jpg">
     <p>Our studio, established in 1989, has been providing local artists with a dedicated evironment for creativity for 20+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    <p>"Our mission is to provide people with beautiful, functional items which enhance lives." -Jenn Wilson (Founder)</p>
+    <div class="caption">
+    <p>"Our mission is to provide people with beautiful, functional items which enhance lives."
+    <br>
+     -Jenn Wilson (Founder)</p>
+    </div>
   </article>
 </section>
 
   <section>
     <!--This is the picture with "room to grow" on it-->
-    <h2>Room to Grow</h2>
-    <img src="images/optimized 3/background-3.jpg">
+
+    <h2 class="roomtogrow">Room to Grow</h2>
+    
   </section>
 
   <section>
+      
     <h3>Facilities</h3>
+    <article id="facilities">
+    
     <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
-    <p class="caption">Every member has access to shelf space and all of the studio's shared equipment.</p>
+    <figure id="shelf">
+    <img id="shelfspace" src="images/optimized 3/background-1.jpg" style="height: 100px;">
+    <figcaption id="caption2">Every member has access to shelf space and all of the studio's shared equipment.
+    </figcaption>
+    </figure>
+    </article>
   </section>
 
   <section>
+  <h4>Monthly Plans</h4>
     <!--This is the monthly plans table-->
-    <table>
-      <tr>
+    <table class="plans">
+      <tr id="tableheader">
         <td>Plans</td>
         <td>Price</td>
         <td>Access</td>
@@ -59,12 +89,15 @@
       </tr>
     </table>
   </section>
+  </div>
 
+  <div class="footer">
   <section>
     <footer>
       <p>Copyright 2017, Bent Creek Ceramics</p>
     </footer>
   </section>
+  </div>
 
 </body>
 </html>
